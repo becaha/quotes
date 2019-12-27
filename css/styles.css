@@ -1,0 +1,116 @@
+/*:root {*/
+/*    --color-light: #ecf9f4;*/
+/*    --color-main: #66CCAA;*/
+/*    --color-dark: #194d3c;*/
+    
+/*    --color-comp-main-3: #338066;*/
+/*    --color-comp-main-1: #99FFDD;*/
+/*    --color-comp-main-2: #66CCAA;*/
+/*    --color-comp-2: #803826;*/
+/*    --color-comp-1: #CC7A66;*/
+    
+/*    --color-mono-5: #264D40;*/
+/*    --color-mono-1: #AAD5C6;*/
+/*    --color-mono-2: #66CCAA;*/
+/*    --color-mono-4: #3D4D47;*/
+/*    --color-mono-3: #4C997F;*/
+    
+/*    --color-shades-4: #468C75;*/
+/*    --color-shades-5: #264D40;*/
+/*    --color-shades-2: #66CCAA;*/
+/*    --color-shades-1: #6CD9B5;*/
+/*    --color-shades-3: #59B395;*/
+
+/*    --color-dark-gray: #343A40*/
+/*}*/
+
+html, body, div {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.color-shades-0 {
+    background-color: #ecf9f4;
+    color: black;
+}
+
+.color-shades-01 {
+    background-color: #AAD5C6;
+    color: black;
+}
+
+.color-shades-1 {
+    background-color: #6CD9B5;
+    color: black;
+}
+
+.color-shades-2 {
+    background-color: #66CCAA;
+    color: black;
+}
+
+.color-shades-3 {
+    background-color: #59B395;
+    color: black;
+}
+
+.color-shades-4 {
+    background-color: #468C75;
+    color: white;
+}
+
+.color-shades-5 {
+    background-color: #264D40;
+    color: white;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: #AAD5C699;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-row {
+    /*height: 25%;*/
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+    /*background-color: white;*/
+    /*color: white;*/
+}
+
+.main-item {
+    /*height: 100%;*/
+    /*width: 25%;*/
+    border-radius: 10px;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    background-color: #FFFFFFDD;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.quote {
+    font-size-adjust: inherit;
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.author {
+    font-weight: bolder;
+}
