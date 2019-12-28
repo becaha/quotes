@@ -26,8 +26,10 @@
 
 html, body, div {
     margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
+    background-color: #AAD5C699;
 }
 
 .color-shades-0 {
@@ -75,6 +77,20 @@ html, body, div {
     justify-content: space-around;
 }
 
+.slide-main-row {
+    margin: 0;
+    padding: 0;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: hidden;
+    background-image: url("../images/wood.jpg");
+    background-repeat: repeat round;
+}
+
+
 .main-row {
     /*height: 25%;*/
     /*width: 100%;*/
@@ -87,8 +103,8 @@ html, body, div {
 }
 
 .main-item {
-    /*height: 100%;*/
-    /*width: 25%;*/
+    height: 90%;
+    width: 25%;
     border-radius: 10px;
     margin: 0 20px 0 20px;
     padding: 10px;
@@ -105,12 +121,24 @@ p {
 }
 
 .quote {
-    font-size-adjust: inherit;
     text-align: center;
-    font-size: medium;
     font-family: cursive;
+    font-size: 2.5vmin;
 }
 
 .author {
     font-weight: bolder;
 }
+
+.background-image {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.top-layer {
+    position: absolute;
+}
+
